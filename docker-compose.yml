@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./notebook:/app/notebook
+    ports:
+      - "8000:8000"
+      

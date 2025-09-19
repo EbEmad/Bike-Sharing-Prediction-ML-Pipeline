@@ -4,6 +4,7 @@ numpy>=1.20.0,<2.0.0
 scikit-learn>=1.0.0,<2.0.0
 lightgbm>=4.0.0,<5.0.0
 xgboost>=2.0.0,<3.0.0
+jupyter
 
 # Visualization
 matplotlib>=3.5.0,<4.0.0

@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./notebook:/app/notebook
+      - ./data:/app/data
     ports:
       - "8000:8000"
       
